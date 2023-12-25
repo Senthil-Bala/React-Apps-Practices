@@ -1,0 +1,29 @@
+.container {
+    width: 50vw;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    background-color: rgb(190, 235, 193);
+    color: red;
+    position: relative;
+    z-index: -1;
+    /* padding:1rem; */
+  }
+  .inner {
+    height: 35px;
+    display: grid;
+    border-style: none;
+    place-items: center;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(235, 171, 171);
+    color: rgb(19, 18, 18);
+    position: absolute;
+    font-weight: bolder;
+    transition: 1.5s ease 0.3s;
+    z-index: 100;
+    left: 0;
+    top:0;
+    bottom: 0;
+
+  }

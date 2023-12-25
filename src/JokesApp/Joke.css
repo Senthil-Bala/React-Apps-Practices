@@ -1,0 +1,33 @@
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Container {
+    background-color: crimson;
+    color: white;
+    font-style: oblique;
+    width: 20rem;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+}
+
+.btn {
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.heading {
+    font-style: oblique;
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.inputs{
+    width:10rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+
+}
