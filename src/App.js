@@ -1,13 +1,11 @@
 import "./App.css";
-import Calci from "./Calci";
-import TableFile from "./SearchTable/TableFile";
-
+import Challenge from "./Company/Challenge"
 
 function App() {
   return (
-    <div >
+    <div className="app" >
       
-      <Calci />
+      <Challenge />
     </div>
   );
 }
